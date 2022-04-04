@@ -1,0 +1,249 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: "effra", sans-serif;
+}
+
+#logo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav {
+    margin-bottom: 18px;
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border-right: 1.4px solid #5B866B;
+    padding: 0 20px;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color:#5B866B;
+}
+
+nav a:hover {
+    background-color: #b98c48;
+    color: #fff;
+}
+
+nav li:last-child {
+    border:none;
+}
+
+main {
+    height: 2254px;
+}
+
+h1 {
+    text-transform: uppercase; 
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+    height: 650px;
+    background-image: url(twotrees.jpg);
+    background-color: rgb(45,62,163,0.75);
+    background-blend-mode: exclusion;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.treeText {
+    transform: translateY(255px);
+    color: #fff;
+}
+
+#main {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 64px;
+    margin: 0 auto;
+}
+
+#sub {
+    font-family: "kepler-std-display", serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 48px;
+    margin: 0 auto;
+}
+
+#about {
+    width: 1000px;
+    margin: 0 auto;
+    color: #524741;
+    height: 450px
+}
+
+.text {
+    float: left;
+    margin: 0 auto;
+    width: 48%;
+}
+
+h2 {
+    font-size: 36px;
+    color: #86765c;
+    clear: left;
+}
+
+p {
+    font-size: 18px;
+    color: #222222;
+    clear: left;
+}
+
+#aRow1, #aRow2 {
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: right;
+}
+
+#aRow1 {
+    margin-bottom: .5em;
+}
+
+#aRow2 {
+    margin-top: 0;
+}
+
+#portfolio {
+    clear: both;
+    height: 550px;
+    text-align: center;
+    background-color: #5b866b;
+    color: #fff; 
+}
+
+#portHeading {
+    padding-top: 65px;
+}
+
+#pRow1 {
+    padding-top: 17px;
+}
+
+.pPic {
+    margin-right: 20px;
+}
+
+.leftButton {
+    transform: translateX(29px) translateY(-34px) rotate(-90deg);
+    border-radius: 50px;
+}
+
+.rightButton {
+    transform: translateX(-29px) translateY(-34px) rotate(90deg);
+    border-radius: 50px;
+}
+
+#contact {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.map {
+    margin: 0;
+    float: left;
+    width: 58%;
+    overflow: hidden;
+    clear: left;
+}
+
+form {
+    float: right;
+    width: 40%;
+    text-align: center;
+    clear: right;
+}
+
+input[type=text] {
+    width: 405px;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: #222222;
+    font-family: "effra", sans-serif;
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+#email, #subject, #comment {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ebebeb;
+    border: none;
+}
+
+#comment { 
+    height: 130px;
+}
+
+
+input[type=image] {
+    transform: translateX(125px) translateY(8px);
+}
+
+footer {
+    clear: both;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#icons {
+    margin: 0;
+    float: left;
+    padding-top: 50px;
+    clear: left;
+}
+
+.icon {
+    padding-right: 10px;
+}
+
+#bttIcon {
+    float: right;
+    height: 64px;
+    width: 64px;
+    position: sticky;
+    background-image: url("musebtnNormal.png");
+    clear: right;
+    transform: translateY(-20px)
+}
+
+h5 {
+    float: right;
+    font-family: "effra", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    text-decoration: none;
+    color: #222222;
+    clear: right;
+    transform: translateX(-70px) translateY(56px)
+}
+
+#bttIcon:hover {
+  background-image: url("musebtnRollover.png");
+}
+
+#bttIcon:active {
+    background-image: url("musebtnActive.png");
+}
