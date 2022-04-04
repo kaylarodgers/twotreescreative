@@ -7,3 +7,5 @@ Completed in May of 2020
 
 Live website can be found here:
 http://www.public.asu.edu/~krodger6/GIT337/W7/index.html
+
+Original mockup file that we were to recreate can be found at mockup.jpg
